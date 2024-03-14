@@ -28,3 +28,9 @@ alias gpl="git pull"
 alias zrc="$EDITOR ~/.zshrc"
 
 ```
+
+#### Fixes 
+```bash
+# `conda` not recognised in zsh
+source /opt/anaconda3/bin/activate
+```

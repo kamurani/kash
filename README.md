@@ -34,3 +34,30 @@ alias zrc="$EDITOR ~/.zshrc"
 # `conda` not recognised in zsh
 source /opt/anaconda3/bin/activate
 ```
+
+
+### Migration 
+
+```bash
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# install conda
+wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
+
+# run install script...
+# TODO
+
+# add to path
+source /path/to/anaconda3/bin/activate
+# if installed for all users: source /opt/anaconda3/bin/activate
+
+conda init zsh
+
+# for bash: conda init
+
+# check working
+conda list
+
+# 
+```

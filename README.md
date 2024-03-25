@@ -1,3 +1,14 @@
+#### Useful commands 
+```bash
+
+# will go to the end and continually load the latest contents of the file.
+# i.e. used to monitor tail of file as it grows. 
+less +F filename
+
+# run command initially `+` and go to bottom of page `G`
+less +G filename
+```
+
 
 #### Shell aliases
 

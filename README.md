@@ -19,6 +19,7 @@ export EDITOR="vim"
 
 ## GENERAL ##
 alias dush="du -sh" # helpful disk usage read
+alias grepc="grep --color=always"  # allow for piping `grep` output to `less` with colours visible
 
 
 

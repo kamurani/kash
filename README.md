@@ -1,4 +1,23 @@
 #### Useful commands 
+
+##### Screen 
+
+```bash
+# To list all of the screen sessions for a user, run the following command as that user:
+screen -ls
+
+# To see all screen sessions on a specific machine you can do:
+ls -laR /var/run/screen/
+
+```
+
+`screen -x [screen id]` - Connect / Attach to a specific running screen.
+
+`Ctrl + D` - while in a screen to Terminate / Stop a screen from running.
+
+`Ctrl + A, Then press D` - while in a screen to detach from screen without disturbing it.
+
+`killall screen` - Detach or terminate all screens.
 ```bash
 
 # will go to the end and continually load the latest contents of the file.

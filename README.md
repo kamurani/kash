@@ -1,5 +1,15 @@
 #### Useful commands 
 
+##### Resource monitoring
+```bash
+# refresh every 0.1 seconds 
+watch -n0.1 nvidia-smi
+
+htop
+atop
+```
+
+
 ##### Screen 
 
 ```bash

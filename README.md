@@ -1,6 +1,10 @@
 #### Docker 
 
 ```bash
+docker run --gpus all <IMAGE_NAME> nvidia-smi
+# check that GPUs are visible within container
+
+
 docker ps -aq --filter ancestor=<IMAGE_NAME>
 # q quiet (only UUID output)
 # a all (show non-running containers)

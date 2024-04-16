@@ -1,6 +1,9 @@
 #### Docker 
 
 ```bash
+docker start  `docker ps -q -l` # restart it in the background
+docker attach `docker ps -q -l` # reattach the terminal & stdin 
+
 docker run --gpus all <IMAGE_NAME> nvidia-smi
 # check that GPUs are visible within container
 

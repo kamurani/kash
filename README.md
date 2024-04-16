@@ -1,3 +1,15 @@
+#### Docker 
+
+```bash
+docker ps -aq --filter ancestor=<IMAGE_NAME>
+# q quiet (only UUID output)
+# a all (show non-running containers)
+# filter for all from a particular image 
+
+# can define container names using --name for later reference
+
+```
+
 #### Useful commands 
 
 ##### Resource monitoring

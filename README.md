@@ -31,6 +31,7 @@ watch -n0.1 nvidia-smi
 
 htop
 atop
+nvtop # NVIDIA devices
 ```
 
 

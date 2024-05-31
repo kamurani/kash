@@ -1,6 +1,11 @@
 #### Docker 
 
 ```bash
+
+# From within container
+echo $HOSTNAME # find hash name of current container
+
+# From outside container
 docker start  `docker ps -q -l` # restart it in the background
 docker attach `docker ps -q -l` # reattach the terminal & stdin 
 

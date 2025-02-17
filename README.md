@@ -1,3 +1,9 @@
+#### Apptainer 
+
+```zsh
+apptainer completion zsh >> ~/.oh-my-zsh/completions/_apptainer
+```
+
 #### Docker 
 
 ```bash

@@ -1,3 +1,13 @@
+#### ZSH
+
+```zsh
+# Find aliases
+zsh -ixc : -o sourcetrace 2>&1 | grep -w alias
+
+# Show all sourced files
+zsh -i -o sourcetrace -c :
+```
+
 #### Apptainer 
 
 ```zsh

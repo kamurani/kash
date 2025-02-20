@@ -8,6 +8,12 @@ zsh -ixc : -o sourcetrace 2>&1 | grep -w alias
 zsh -i -o sourcetrace -c :
 ```
 
+```zsh
+# save aliases to file after creating them on-the-fly
+alias sa="alias -L > ~/.zsh_aliases"
+
+```
+
 #### Apptainer 
 
 ```zsh

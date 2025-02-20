@@ -5,6 +5,8 @@
 echo $SHELL
 # Find currently RUNNING shell
 echo $0
+#
+ps -p $$
 
 ```
 

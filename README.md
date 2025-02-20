@@ -1,3 +1,13 @@
+#### Shell 
+
+```zsh
+# Find current user's shell
+echo $SHELL
+# Find currently RUNNING shell
+echo $0
+
+```
+
 #### ZSH
 
 ```zsh

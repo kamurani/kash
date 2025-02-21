@@ -63,6 +63,12 @@ docker ps -aq --filter ancestor=<IMAGE_NAME>
 
 #### Useful commands 
 
+```zsh
+# Show full paths of directories
+$ ls -d $PWD/*
+
+```
+
 ##### Resource monitoring
 ```bash
 # refresh every 0.1 seconds 

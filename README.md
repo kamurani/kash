@@ -1,3 +1,23 @@
+#### Platform check 
+
+```python
+Python 3.9.21 (main, Dec  5 2024, 00:00:00) 
+[GCC 11.5.0 20240719 (Red Hat 11.5.0-2)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import platform
+>>> platform.system()
+'Linux'
+>>> platform.processor()
+'aarch64'
+>>> platform.platform()
+'Linux-5.14.0-503.23.1.el9_5.aarch64+64k-aarch64-with-glibc2.34'
+>>> platform.machine()
+'aarch64'
+>>> platform.uname()
+uname_result(system='Linux', node='k093', release='5.14.0-503.23.1.el9_5.aarch64+64k', version='#1 SMP PREEMPT_DYNAMIC Thu Feb 6 07:14:16 EST 2025', machine='aarch64')
+
+```
+
 #### Shell 
 
 ```zsh

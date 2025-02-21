@@ -26,6 +26,11 @@ alias sa="alias -L > ~/.zsh_aliases"
 
 ```
 
+```zsh
+# show hostname on prompt
+PROMPT="%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%1~ %{$reset_color%}%# "
+```
+
 #### Apptainer 
 
 ```zsh

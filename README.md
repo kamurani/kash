@@ -17,7 +17,13 @@ Type "help", "copyright", "credits" or "license" for more information.
 uname_result(system='Linux', node='k093', release='5.14.0-503.23.1.el9_5.aarch64+64k', version='#1 SMP PREEMPT_DYNAMIC Thu Feb 6 07:14:16 EST 2025', machine='aarch64')
 
 ```
+#### SSH
 
+```zsh
+# exits with command running in background to prevent stopping it
+ssh localhost -f 'screen -d -m sleep 60' 
+
+```
 #### Shell 
 
 

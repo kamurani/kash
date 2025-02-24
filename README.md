@@ -20,6 +20,16 @@ uname_result(system='Linux', node='k093', release='5.14.0-503.23.1.el9_5.aarch64
 
 #### Shell 
 
+
+```bash
+# Bash
+if [ -t 1 ]; then
+    # standard output is a TTY
+    ...
+fi
+
+
+```
 ```zsh
 # Find current user's shell
 echo $SHELL

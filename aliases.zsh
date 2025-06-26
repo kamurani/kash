@@ -6,7 +6,12 @@ export EDITOR="vim"
 alias dush="du -sh" # helpful disk usage read
 alias grepc="grep --color=always"  # allow for piping `grep` output to `less` with colours visible
 
+alias wcl="wc -l"
+alias wcb="wc -b"
+alias ldr="ls -d */"
+alias lf="ls -l | grep -v '^d'"
 
+alias nv="nvidia-smi"
 
 
 ## GIT ##
